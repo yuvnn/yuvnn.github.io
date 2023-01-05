@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: yuvnn                 # the main title
 
-tagline: !파이팅!  # it will display as the sub-title
+tagline: 파이팅!  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   안녕하세요!
