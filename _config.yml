@@ -21,10 +21,10 @@ timezone: Asia/Seoul
 
 title: yuvnn storage                   # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 파이팅!  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  파이팅!
+  안녕하세요!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://yuvnn.github.io'
