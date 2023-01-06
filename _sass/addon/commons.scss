@@ -703,7 +703,9 @@ $sidebar-display: "sidebar-display";
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
+
   /* background: var(--sidebar-bg); */
+  
   background-image: url('/assets/img/light-sidebar-img.jpg');
   background-size: cover;
   background-repeat: no-repeat;
