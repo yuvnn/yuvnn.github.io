@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://chirpy-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: \assets\img\avatar.png
+avatar: /assets/img/avatar.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -113,7 +113,7 @@ assets:
     enabled: true     # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: development       # [development|production]
+    env: productio       # [development|production]
 
 pwa:
   enabled: true   # the option for PWA feature
