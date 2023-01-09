@@ -20,15 +20,6 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: true
-  
-steps:
-  - uses: actions/checkout@v2
-  - shell: bash
-    run: |
-      git config user.name "name"
-      git config user.email "<>"
-      git config push.default "current"
-      ./run
       
 jobs:
   build:
