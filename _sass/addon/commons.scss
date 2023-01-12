@@ -741,7 +741,7 @@ $sidebar-display: "sidebar-display";
       transition: border-color 0.35s ease-in-out;
 
       &:hover {
-        border-color: white;
+        border-color: rgba(255, 255, 255, 0);
       }
     }
 
