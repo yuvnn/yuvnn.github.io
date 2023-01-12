@@ -2,10 +2,9 @@
   The Side Bar
 -->
 
-<div id="sidebar" class="d-flex flex-column align-items-end">
+<div id="sidebar" class="d-flex flex-column align-items-end" lang="{{lang}}">
   <div class="profile-wrapper text-center">
     <div id="avatar">
-       <div id="avatar">
       <a href="{{ '/' | relative_url }}" alt="avatar" class="mx-auto">
         {% capture avatar_url %}
           {%- if site.avatar contains '://' -%}
@@ -16,10 +15,10 @@
             {{ site.avatar | relative_url }}
           {%- endif -%}
         {% endcapture %}
-          <img src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
+        <img src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
       </a>
     </div>
-
+    
     <div class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </div>
