@@ -66,7 +66,7 @@ ruby의 버전 변화로 인한 오류나 첨부된 링크의 글 내에 다 서
  `git remote add main <repository>`
 <br>
 <br>
-## 02. 서버 구동시 오류
+## 02.서버 구동시 오류
 
 ###  build site시 오류 
 
