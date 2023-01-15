@@ -28,10 +28,8 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 
 ~~저는 빠르게 해보려고 1번으로 하다가 된통 당하고 두번 갈아엎었습니다~~
 
-혹시나 모르니 제가 참고한 영상과 글을 링크에 다 첨부해 좋겠습니다.
-<br>
+혹시나 모르니 제가 참고한 영상과 글을 링크에 다 첨부해 놓겠습니다.
 
-<br>
 **저는 굳이 제작 과정을 전부 서술하지 않겠습니다.** 제가 첨부해 놓은 **링크의 글이나 영상을 따라하는 것 만으로도 충분하기 때문입니다.**
 하지만 제작 시 중간중간 오류를 경험할 수 있습니다.ruby의 버전 변화로 인한 오류나 첨부된 링크의 글 내에 다 서술되지 않은 문제 등이 존재하기 때문입니다.
 **이 글은 오류시 참고글 혹은 초보자를 위한 더욱 구체적인 서술 정도로 생각해주시면 감사하겠습니다.**
@@ -47,6 +45,7 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 - pull해서 연결하기
   `git pull <repository>`
  - 원격(remote) 폐기 후 다시 연결
+ - 
  `git remote remove main`
  
  `git remote add main <repository>`
@@ -60,20 +59,19 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 
 리포지토리의 상단이나 action 섹션에서 확인할 수 있습니다.
 
-![Desktop View](/assets/img/making-github-blog-img/build-error-img-001.jpg){: width="40%" }
-`
+![Desktop View](\assets\img\making-github-blog-img\build-error-img-001.jpg){: width="80%" }
+
               -----------------------------------------------
       Jekyll 4.2.0   Please append `--trace` to the `serve` command
                      for any additional information or backtrace.
               -----------------------------------------------
-`
+
 구글링 결과 $ bundle exec jekyll serve --trace 을 실행해 주면 된다고 하지만 그것은 일시적입니다. 
 
 해결방법 : github\workflows 에서 다음과 같은 코드를 찾아 --trace를 붙여줍니다.
-
 그러면 build마다 workflows에서 bundle exec jekyll serve --trace가 실행됩니다.
 
-![Desktop View](/assets/img/making-github-blog-img/build-error-img-002.jpg){: width="40%" }
+![Desktop View](/assets/img/making-github-blog-img/build-error-img-002.jpg){: width="80%" }
 <br>
 <br>
 ### .gitmodules 오류
