@@ -62,7 +62,7 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 
 ![Desktop View](/assets/img/making-github-blog-img/build-error-img-001.jpg){: width="80%" }
 
-```
+```build error
                      -----------------------------------------------
       Jekyll 4.2.0   Please append '--trace' to the 'serve' command
                      for any additional information or backtrace.
