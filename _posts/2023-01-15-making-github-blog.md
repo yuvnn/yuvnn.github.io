@@ -45,7 +45,7 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 - pull해서 연결하기
   `git pull <repository>`
  - 원격(remote) 폐기 후 다시 연결
- - 
+ 
  `git remote remove main`
  
  `git remote add main <repository>`
