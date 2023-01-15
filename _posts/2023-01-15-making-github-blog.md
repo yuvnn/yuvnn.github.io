@@ -1,7 +1,7 @@
 ---
 title: github blog 제작 일지 #1
 author: yuvnn
-date: 2023-01-15 18:07:00 +0900
+date: 2023-01-15 17:07:00 +0900
 categories: [GitHub Blog]
 tags: [GitHub Blog]
 ---
