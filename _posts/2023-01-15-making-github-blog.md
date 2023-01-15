@@ -8,11 +8,17 @@ tags: [GitHub Blog]
 
 ## 서문 : from scratch!
 개발 관련 공부를 기록하는 목적으로 github blog를 제작했습니다! 
+
 웹 전반을 직접 구성해보는 작업은 매우 의미있는 시간이었습니다. 
-하지만 git, html, scss 등 웹 개발에 대한 기초 지식없이 맨땅에 헤딩식으로 시작했기 때문에 많은 시행착오를 겪었습니다.  
+
+하지만 git, html, scss 등 웹 개발에 대한 기초 지식없이 맨땅에 헤딩식으로 시작했기 때문에 많은 시행착오를 겪었습니다.
+
 제작하며 엿배운 지식을 조각조각 기록해 놓으려 합니다. 
+
 하지만 부정확한 정보나 미숙한 이해가 있을 수 있는 점 양해 부탁드립니다. ㅠ
+
 ( 해당 작업은 window 11 x64 에서 진행하였습니다. )
+
 ( 사용한 템플릿은 [jekyll-chrispy-theme](http://jekyllthemes.org/themes/jekyll-theme-chirpy/) 입니다. )
 
 ## 00. github blog 제작 시작하기
@@ -59,6 +65,7 @@ ruby의 버전 변화로 인한 오류나 첨부된 링크의 글 내에 다 서
               -----------------------------------------------
             
 구글링 결과 $ bundle exec jekyll serve --trace 을 실행해 주면 된다고 하지만 그것은 일시적입니다. 
+
 해결방법 : github\workflows 에서 다음과 같은 코드를 찾아 --trace를 붙여줍니다.
 그러면 build마다 workflows에서 bundle exec jekyll serve --trace가 실행됩니다.
 ![enter image description here](%5Cassets%5Cimg%5Cmaking-github-blog-img%5Cbuild-error-img-002)
@@ -89,7 +96,7 @@ _config.yml의 내용을 다음과 같이 수정했더니 해결되었습니다.
 문자열을 할당해야 하는 프로퍼티들에는 더블 쿼티션`"` 이나 싱글쿼티션`'`을 사용해야 합니다.
 
 ---
-생각보다 글이 길어 포스팅을 나누도록 하겠습니다.
+커스텀 시 발생한 오류는 포스팅을 나누도록 하겠습니다.
 너무 기록할 생각없이 제작을 했더니 첨부할 자료가 많이 없다는 것이 아쉽네요.
 복기하느라 애를 먹어서 실제와 다른 내용이 있을 수 있습니다..
 다음부터는 뭘 만들 때 기록하면서 해야겠다는 교훈을 얻고 갑니다.
