@@ -59,8 +59,8 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 
 리포지토리의 상단이나 action 섹션에서 확인할 수 있습니다.
 
-![Desktop View](\assets\img\making-github-blog-img\build-error-img-001.jpg){: width="80%" }
-
+![Desktop View](/assets/img/making-github-blog-img/build-error-img-001.jpg){: width="80%" }
+/assets/img/making-github-blog-img/build-error-img-001.jpg
               -----------------------------------------------
       Jekyll 4.2.0   Please append `--trace` to the `serve` command
                      for any additional information or backtrace.
