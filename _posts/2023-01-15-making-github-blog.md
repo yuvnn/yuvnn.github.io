@@ -60,23 +60,22 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 
 서버를 자신의 리포지토리로 연결하고 배포시 뜨는 오류입니다. 리포지토리의 상단이나 action 섹션에서 확인할 수 있습니다.
 
-![Desktop View](/assets/img/making-github-blog-img/build-error-img-001.jpg){: width="80%" }
+![Desktop View](/assets/img/making-github-blog-img/build-error-img-001.jpg){: width="90%" }
 
-`
-                     -----------------------------------------------
-      Jekyll 4.2.0   Please append `--trace` to the `serve` command
+'                -----------------------------------------------
+      Jekyll 4.2.0   Please append '--trace' to the 'serve' command
                      for any additional information or backtrace.
-                     -----------------------------------------------
-`
+                     ----------------------------------------------- '
+
 구글링 결과 $ bundle exec jekyll serve --trace 을 실행해 주면 된다고 하지만 그것은 일시적입니다. 
 
 **해결방법 :** github\workflows 에서 다음과 같은 코드를 찾아 --trace를 붙여줍니다.
 그러면 build마다 workflows에서 bundle exec jekyll serve --trace가 실행됩니다.
 
-![Desktop View](/assets/img/making-github-blog-img/build-error-img-002.jpg){: width="80%" }
+![Desktop View](/assets/img/making-github-blog-img/build-error-img-002.jpg){: width="90%" }
 <br>
 <br>
-### - .gitmodules 오류
+### -  .gitmodules 오류
 
   `fatal: No url found for submodule path 'path/to/submodule'`
   
