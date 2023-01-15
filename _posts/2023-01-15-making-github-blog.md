@@ -43,6 +43,7 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 
 
 - pull해서 연결하기
+- 
   `git pull <repository>`
  - 원격(remote) 폐기 후 다시 연결
  
@@ -53,19 +54,18 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 <br>
 ## 02.서버 구동시 오류
 ---
-###  build site시 오류 
+### - build site시 오류 
 
-서버를 자신의 리포지토리로 연결하고 배포시 뜨는 오류입니다. 
-
-리포지토리의 상단이나 action 섹션에서 확인할 수 있습니다.
+서버를 자신의 리포지토리로 연결하고 배포시 뜨는 오류입니다. 리포지토리의 상단이나 action 섹션에서 확인할 수 있습니다.
 
 ![Desktop View](/assets/img/making-github-blog-img/build-error-img-001.jpg){: width="80%" }
 /assets/img/making-github-blog-img/build-error-img-001.jpg
+'
               -----------------------------------------------
       Jekyll 4.2.0   Please append `--trace` to the `serve` command
                      for any additional information or backtrace.
               -----------------------------------------------
-
+'
 구글링 결과 $ bundle exec jekyll serve --trace 을 실행해 주면 된다고 하지만 그것은 일시적입니다. 
 
 해결방법 : github\workflows 에서 다음과 같은 코드를 찾아 --trace를 붙여줍니다.
@@ -74,7 +74,7 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 ![Desktop View](/assets/img/making-github-blog-img/build-error-img-002.jpg){: width="80%" }
 <br>
 <br>
-### .gitmodules 오류
+### - .gitmodules 오류
 
   `fatal: No url found for submodule path 'path/to/submodule'`
   
@@ -91,36 +91,23 @@ github blog 제작에는 크게 두가지 방법이 있습니다.
 ~~해결된 원리는 알 수가 없었습니다. 아시는 분은 알려주십시요..~~
 <br>
 <br>
-### page build 오류
+### - page build 오류
 
+`Process finished with exit code 1`
 
-    Process finished with exit code 1
-    
-page build 과정에서 계속 해당 오류로 빌드가 미실행되었습니다.
+page build 과정에서 계속 해당 오류로 빌드가 미실행되었습니다. 해당 오류 내용은 너무 광범위하기 때문에 오류 원인을 직관적으로 찾을 수 없었습니다.
 
-해당 오류 내용은 너무 광범위해서 오류 원인을 직관적으로 찾을 수 없었습니다.
-
-하지만 [이곳](https://roadtos7.github.io/android/2021/06/10/Jekyll-FixBuildError.html)의 3번문항에서 오류의 원인을 찾을 수 있었습니다.
-
-저의 경우에서는 _config.yml 에서 tagline의 내용을 !파이팅!으로 적었더니 !을 문자로 인식하지 못해 발생한 오류였습니다. 
+하지만 [이곳](https://roadtos7.github.io/android/2021/06/10/Jekyll-FixBuildError.html)의 3번문항에서 오류의 원인을 찾을 수 있었습니다. 저의 경우에서는 _config.yml 에서 tagline의 내용을 !파이팅!으로 적었더니 !을 문자로 인식하지 못해 발생한 오류였습니다. 
 
 
 해결방법:
 
 `tagline: '!파이팅!'`
 
-_config.yml의 내용을 다음과 같이 수정했더니 해결되었습니다. 
-
-문자열을 할당해야 하는 프로퍼티들에는 더블 쿼티션`"` 이나 싱글쿼티션`'`을 사용해야 합니다.
-
+_config.yml의 내용을 다음과 같이 수정했더니 해결되었습니다. 문자열을 할당해야 하는 프로퍼티들에는 더블 쿼티션`"` 이나 싱글쿼티션`'`을 사용해야 합니다.
+<br>
+<br>
 ---
-
-커스텀 시 발생한 오류는 포스팅을 나누도록 하겠습니다.
-
-너무 기록할 생각없이 제작을 했더니 첨부할 자료가 많이 없다는 것이 아쉽네요.
-
-복기하느라 애를 먹어서 실제와 다른 내용이 있을 수 있습니다..
-
-다음부터는 뭘 만들 때 기록하면서 해야겠다는 교훈을 얻고 갑니다.
+커스텀 시 발생한 오류는 포스팅을 나누도록 하겠습니다. 너무 기록할 생각없이 제작을 했더니 첨부할 자료가 많이 없다는 것이 아쉽네요. 복기하느라 애를 먹어서 실제와 다른 내용이 있을 수 있습니다..다음부터는 뭘 만들 때 기록하면서 해야겠다는 교훈을 얻고 갑니다.
 
 #2 에서 계속 포스팅하겠습니다!
