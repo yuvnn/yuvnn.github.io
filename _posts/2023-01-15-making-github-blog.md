@@ -1,7 +1,7 @@
 ---
 title: github blog 제작 일지 #1
 author: yuvnn
-date: 2023-01-15 17:07:00 +9000
+date: 2023-01-15 17:07:00 +0900
 categories: [GitHub Blog]
 tags: [GitHub Blog]
 ---
@@ -57,7 +57,7 @@ ruby의 버전 변화로 인한 오류나 첨부된 링크의 글 내에 다 서
 ###  build site시 오류 
 서버를 자신의 리포지토리로 연결하고 배포시 뜨는 오류입니다. 
 리포지토리의 상단이나 action 섹션에서 확인할 수 있습니다.
-![enter image description here](%5Cassets%5Cimg%5Cmaking-github-blog-img%5Cbuild-error-img-001)
+![Desktop View](/assets/img/making-github-blog-img/build-error-img-001.jpg){: width="60%" }
 
     -----------------------------------------------
       Jekyll 4.2.0   Please append `--trace` to the `serve` command
@@ -68,7 +68,7 @@ ruby의 버전 변화로 인한 오류나 첨부된 링크의 글 내에 다 서
 
 해결방법 : github\workflows 에서 다음과 같은 코드를 찾아 --trace를 붙여줍니다.
 그러면 build마다 workflows에서 bundle exec jekyll serve --trace가 실행됩니다.
-![enter image description here](%5Cassets%5Cimg%5Cmaking-github-blog-img%5Cbuild-error-img-002)
+![Desktop View](/assets/img/making-github-blog-img/build-error-img-002.jpg){: width="60%" }
 
 ### .gitmodules 오류
   `fatal: No url found for submodule path 'path/to/submodule'`
