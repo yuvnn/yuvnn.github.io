@@ -7,7 +7,6 @@ tags: [GitHub Blog]
 ---
 
 
-# 클론코딩  해보기 | 쿠팡로그인 페이지
 
 경아(교수님)의 추천으로 웹 개발이전에 클론코딩을 통해 실전 개발감각을 익혀 보기로 했다. 
 참고한 영상은 [여기](https://youtu.be/tshTCv1hwJQ?si=fO934Q2VrddAKaxM)
@@ -17,17 +16,17 @@ tags: [GitHub Blog]
 # 발생한 자잘한 오류들과 해결방법
 
 ## 1. css 표에서 블릿 없애기
-```css
+```
 list-style: none;
 ```
  ##### + 들여쓰기 없애기
  
-```css
+```
 padding - left : 0px;
 ```
 
  ##### + 목록 스타일 (블릿 스타일 바꾸기)
-```css
+```
 list-style-type: ~~;
 ```
 ## 2. > 이거 뭐지?
@@ -62,11 +61,11 @@ true (O) false (O)
 ## 1. span tag에 title 속성 넣어줘서 마우스 올렸을 때 메세지 뜨게 할 것 (역할 표시)
 
 ## 2. css에서 하이퍼링크 밑줄 없애기
-```css
+```
 text-decoration: none;
 ```
 ## 3. span 수직 정렬 : vertical-align
-```css
+```
 vertical-align: bottom;
 ```
 ![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-5.png)
