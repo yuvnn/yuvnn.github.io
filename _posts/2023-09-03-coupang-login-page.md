@@ -31,7 +31,7 @@ padding - left : 0px;
 list-style-type: ~~;
 ```
 ## 2. > 이거 뭐지?
-![Desktop View](/assets/img/m2023-09-03-coupang-login-page/coupang-login-page-1.jpg)
+![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-1.jpg)
 결국 코드 하나씩 지워보면서 발견
 html 주석달 때 오타난 거 였음
 이런 실수 너무 시러 진짜.....
