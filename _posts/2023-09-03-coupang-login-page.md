@@ -31,22 +31,22 @@ padding - left : 0px;
 list-style-type: ~~;
 ```
 ## 2. > 이거 뭐지?
-![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-1.jpg)
+![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-1.png)
 결국 코드 하나씩 지워보면서 발견
 html 주석달 때 오타난 거 였음
 이런 실수 너무 시러 진짜.....
 
 ## 3. 정렬이 이상하다잉
-![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-2.jpg)
+![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-2.png)
 ```
 align-self: center;
 ```
 ## 4. 자바스트립트  오류 - true is not defined
 
-![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-3.jpg)
+![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-3.png)
 갑자기 뜬 오류
 
-![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-4.jpg)
+![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-4.png)
 입력할때 텍스트가 아니라 예약어로 입력되어야 하나봄
 (사진의 ture 목록 중 아래가 아닌 위 선택)
 개발환경에서 색깔로 되면 제대로 된거임
@@ -69,14 +69,14 @@ text-decoration: none;
 ```css
 vertical-align: bottom;
 ```
-![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-5.jpg)
+![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-5.png)
 저 네모상자랑은 무슨 이유에서인지는 몰라도 center가 아니라 bottom 을 해야 정렬이 맞음.
 
 ## 4. js css랑 제대로 연결되고 있는지 확인하기 위해
 console.log() 사용하기
 
 # 완성!
-![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-6.jpg)
+![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-6.png)
 
 
 > Written with [StackEdit](https://stackedit.io/).
