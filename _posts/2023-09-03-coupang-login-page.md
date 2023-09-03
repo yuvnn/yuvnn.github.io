@@ -7,7 +7,6 @@ tags: [html,css,javascript]
 ---
 
 
-
 경아(교수님)의 추천으로 웹 개발이전에 클론코딩을 통해 실전 개발감각을 익혀 보기로 했다. 
 참고한 영상은 [여기](https://youtu.be/tshTCv1hwJQ?si=fO934Q2VrddAKaxM)
 
