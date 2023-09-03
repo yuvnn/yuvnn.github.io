@@ -1,5 +1,5 @@
 ---
-title: 'github blog 제작 일지 #1'
+title: 'github blog 제작 일지'
 author: yuvnn
 date: 2023-01-15 17:07:00 +0900
 categories: [GitHub Blog]
