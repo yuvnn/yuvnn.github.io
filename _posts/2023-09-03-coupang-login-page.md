@@ -79,17 +79,5 @@ console.log() 사용하기
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 > Written with [StackEdit](https://stackedit.io/).
