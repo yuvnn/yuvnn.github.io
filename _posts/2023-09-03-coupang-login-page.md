@@ -13,7 +13,7 @@ tags: [html,css,javascript]
 약 3~4시간 정도 소요
 
 # 발생한 자잘한 오류들과 해결방법
-
+---
 ## 1. css 표에서 블릿 없애기
 ```
 list-style: none;
@@ -56,7 +56,7 @@ true (O) false (O)
 
 
 # 기억하면 좋을 듯
-
+---
 ## 1. span tag에 title 속성 넣어줘서 마우스 올렸을 때 메세지 뜨게 할 것 (역할 표시)
 
 ## 2. css에서 하이퍼링크 밑줄 없애기
@@ -74,6 +74,7 @@ vertical-align: bottom;
 console.log() 사용하기
 
 # 완성!
+---
 ![Desktop View](/assets/img/2023-09-03-coupang-login-page/coupang-login-page-6.png)
 
 
