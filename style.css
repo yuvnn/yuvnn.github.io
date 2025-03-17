@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+h1,
+h2,
+h3 {
+  color: #dfe0df;
+}
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -12,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f4f4f4;
+  background-color: #23554d;
 }
 .container {
   display: flex;
@@ -54,7 +60,7 @@ iframe {
   justify-content: center;
   width: 50px;
   height: 50px;
-  background-color: #b66243;
+  background-color: #e1b24e;
   color: white;
   text-decoration: none;
   border-radius: 50%;
@@ -62,7 +68,7 @@ iframe {
   transition: 0.3s;
 }
 .links a:hover {
-  background-color: #c4582e;
+  background-color: #e2a92e;
   transform: scale(1.1);
 }
 
