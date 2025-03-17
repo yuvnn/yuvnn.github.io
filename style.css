@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-align: center;
 }
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -53,7 +54,7 @@ iframe {
   justify-content: center;
   width: 50px;
   height: 50px;
-  background-color: #0073e6;
+  background-color: #b66243;
   color: white;
   text-decoration: none;
   border-radius: 50%;
@@ -61,7 +62,7 @@ iframe {
   transition: 0.3s;
 }
 .links a:hover {
-  background-color: #005bb5;
+  background-color: #c4582e;
   transform: scale(1.1);
 }
 
