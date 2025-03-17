@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.image-box img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-box:hover img {
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+}
+
+.small_icon {
+  font-size: 0.9em;
+}
+
+.links {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #0073e6;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 24px;
+  transition: 0.3s;
+}
+.links a:hover {
+  background-color: #005bb5;
+  transform: scale(1.1);
+}
+
+/* 툴팁 스타일 */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #333;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 12px;
+
+  font-size: 12px;
+  color: #fff;
+
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -12px;
+  border-width: 12px;
+  border-style: solid;
+  border-color: transparent transparent #333 transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.big_text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.samll_text {
+  font-size: 12px;
+}
