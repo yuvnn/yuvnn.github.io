@@ -6,9 +6,12 @@
 }
 
 h1,
-h2,
 h3 {
-  color: #dfe0df;
+  color: #141414;
+}
+
+h2 {
+  color: #c4b1b1;
 }
 
 body {
@@ -18,7 +21,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #23554d;
+  background-color: #f4f4f4;
 }
 .container {
   display: flex;
@@ -60,7 +63,7 @@ iframe {
   justify-content: center;
   width: 50px;
   height: 50px;
-  background-color: #e1b24e;
+  background-color: #141414;
   color: white;
   text-decoration: none;
   border-radius: 50%;
